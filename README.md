@@ -1,2 +1,2 @@
 # coins
-Find how many kinds of coins group there are 
+Find how many kinds of coin-groups there are 
