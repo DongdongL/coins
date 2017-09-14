@@ -1,11 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*- 10
+import math
 def kk(m):
-    if m>0:
-     for i in range(0,m):
-        if 2**i>=m:
-            return i;
-            break
+    return int(math.log(m,2));
+
 def coin(num,k,list):
  mk=kk(num);
  if mk>k:
@@ -26,7 +24,7 @@ def coin(num,k,list):
     return list
 while(1):
     n=input("请输入：")
-    if n<=0:
+    if n<=0 :
         print "please input positive integer";
         continue;
     ink=kk(n);
